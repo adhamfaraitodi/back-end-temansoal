@@ -2,7 +2,7 @@ import { HttpsError, onCall } from "firebase-functions/v2/https"
 import { Configuration, OpenAIApi } from "openai"
 
 const configuration = new Configuration({
-  organization: "org-sDSe26piBSIXFhgP6BuwbtB2",
+  organization: "org-MycL8hWSsf79BG8ZKoJmAy7f",
   apiKey: process.env.OPENAI_API_KEY,
 })
 
