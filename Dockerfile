@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:18-alpine
 RUN apk add --update npm
 RUN npm install -g firebase-tools
 WORKDIR /app
